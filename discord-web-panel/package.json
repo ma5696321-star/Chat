@@ -1,0 +1,16 @@
+{
+  "name": "discord-web-panel",
+  "version": "1.0.0",
+  "description": "Web panel for Discord bot (host on Railway/Render/VPS).",
+  "main": "web.js",
+  "type": "module",
+  "scripts": {
+    "start": "node web.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5"
+  }
+}
